@@ -66,7 +66,10 @@ export default function Home() {
           </Button>
         </Column>
       </Column>
-      <Projects text="Galerie Isabelle Mézières en 2014 (Tableau fabriqué à Rome, Villa Médicis)." range={[2]} />
+      <Heading align="left" wrap="balance" variant="body-strong-xl">
+        Galerie XXI en 2023 -Michel Blachère
+      </Heading>
+      <MasonryGrid2025 folder="Galerie_XXI" />
       <Link href="/files/Joncaille_Tugny_Perez_vfinale.pdf">
         <Image src="/images/gallery/livre2.png" alt="Livre" width={300} height={300} />
         <Heading align="center" wrap="balance" onBackground="neutral-weak" variant="body-strong-xl">
@@ -174,8 +177,8 @@ export default function Home() {
           src="/images/gallery/Pataut_Noël.JPG"
           alt="Pataut"
           width={1600}
-          height={700}          sizes="(max-width: 768px) 100vw, 90vw"
-          style={{ width: "100%", height: "auto" }}        />
+          height={700} sizes="(max-width: 768px) 100vw, 90vw"
+          style={{ width: "100%", height: "auto" }} />
       </Flex>
       <Flex
         background="neutral-alpha-weak"
