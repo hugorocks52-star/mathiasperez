@@ -42,7 +42,7 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sass": "^1.86.3",
-    "sharp": "^0.34.1",
+    "sharp": "^0.33.5",
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.7",
     "turbo": "^2.5.3"

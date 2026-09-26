@@ -1,0 +1,76 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\test\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.5.0
+3 silly config load:file:C:\Users\test\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\test\Desktop\Mathias final\.npmrc
+5 silly config load:file:C:\Users\test\.npmrc
+6 silly config load:file:C:\Users\test\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--package-lock-only" "--ignore-scripts" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\test\Desktop\Mathias final\.npm-cache\_logs\2026-09-26T12_20_24_171Z-
+10 verbose logfile C:\Users\test\Desktop\Mathias final\.npm-cache\_logs\2026-09-26T12_20_24_171Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ECONNREFUSED
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly fetch manifest sharp@^0.33.5
+16 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+17 silly placeDep ROOT sharp@ REPLACE for: Mathias Perez - Portfolio@2.0.0 want: ^0.33.5
+18 warn ERESOLVE overriding peer dependency {
+18 warn ERESOLVE   code: 'ERESOLVE',
+18 warn ERESOLVE   edge: {
+18 warn ERESOLVE     type: 'peer',
+18 warn ERESOLVE     name: 'sharp',
+18 warn ERESOLVE     spec: '^0.33.4',
+18 warn ERESOLVE     error: 'INVALID',
+18 warn ERESOLVE     from: {
+18 warn ERESOLVE       name: '@once-ui-system/core',
+18 warn ERESOLVE       version: '1.6.4',
+18 warn ERESOLVE       location: 'node_modules/@once-ui-system/core',
+18 warn ERESOLVE       isWorkspace: false,
+18 warn ERESOLVE       dependents: [Array]
+18 warn ERESOLVE     }
+18 warn ERESOLVE   },
+18 warn ERESOLVE   dep: {
+18 warn ERESOLVE     name: 'sharp',
+18 warn ERESOLVE     version: undefined,
+18 warn ERESOLVE     errors: [ [NotCachedError] ],
+18 warn ERESOLVE     package: {},
+18 warn ERESOLVE     whileInstalling: {
+18 warn ERESOLVE       name: 'Mathias Perez - Portfolio',
+18 warn ERESOLVE       version: '2.0.0',
+18 warn ERESOLVE       path: 'C:\\Users\\test\\Desktop\\Mathias final'
+18 warn ERESOLVE     },
+18 warn ERESOLVE     location: 'node_modules/sharp',
+18 warn ERESOLVE     isWorkspace: false,
+18 warn ERESOLVE     dependents: [ [Object] ]
+18 warn ERESOLVE   },
+18 warn ERESOLVE   force: false,
+18 warn ERESOLVE   isMine: true,
+18 warn ERESOLVE   strictPeerDeps: false,
+18 warn ERESOLVE   current: {
+18 warn ERESOLVE     name: 'sharp',
+18 warn ERESOLVE     version: '0.34.5',
+18 warn ERESOLVE     location: 'node_modules/sharp',
+18 warn ERESOLVE     isWorkspace: false,
+18 warn ERESOLVE     dependents: [ [Object], [Object] ]
+18 warn ERESOLVE   }
+18 warn ERESOLVE }
+19 http cache https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.4.tgz 0ms (cache hit)
+20 silly tarball no local data for https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.4.tgz. Extracting by manifest.
+21 verbose stack Error: request to https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.4.tgz failed: cache mode is 'only-if-cached' but no cached response is available.
+21 verbose stack     at cacheFetch (C:\Users\test\AppData\Roaming\npm\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+21 verbose stack     at async fetch (C:\Users\test\AppData\Roaming\npm\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+22 error code ENOTCACHED
+23 error request to https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.4.tgz failed: cache mode is 'only-if-cached' but no cached response is available.
+24 silly unfinished npm timer reify 1790425224466
+25 silly unfinished npm timer reify:loadTrees 1790425224466
+26 silly unfinished npm timer idealTree:buildDeps 1790425224756
+27 silly unfinished npm timer idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi 1790425224772
+28 verbose cwd C:\Users\test\Desktop\Mathias final
+29 verbose os Windows_NT 10.0.26200
+30 verbose node v24.5.0
+31 verbose npm  v11.19.0
+32 verbose exit 1
+33 verbose code 1
+34 error A complete log of this run can be found in: C:\Users\test\Desktop\Mathias final\.npm-cache\_logs\2026-09-26T12_20_24_171Z-debug-0.log
