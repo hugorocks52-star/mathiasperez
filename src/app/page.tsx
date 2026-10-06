@@ -66,6 +66,30 @@ export default function Home() {
           </Button>
         </Column>
       </Column>
+      <Flex
+        background="neutral-alpha-weak"
+        padding="24"
+        radius="l"
+        gap="16"
+        direction="column"
+        horizontal="center"
+        style={{ width: "100%", maxWidth: "100%" }}
+      >
+        <div className="relative w-full rounded-md overflow-hidden mt-24" style={{ paddingBottom: "56.25%" }}>
+          <iframe
+            src="https://www.youtube.com/embed/IGiQp5UaJWc?si=7wThQGpRXLjz2XhD"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+          />
+          <div className="absolute inset-0 z-10" />
+          <Heading align="center" wrap="balance" onBackground="neutral-weak" variant="body-strong-xl">
+            Hubert Lucot
+          </Heading>
+        </div>
+      </Flex>
       <Heading align="left" wrap="balance" variant="body-strong-xl">
         Galerie XXI en 2023 -Michel Blachère
       </Heading>
@@ -128,30 +152,6 @@ export default function Home() {
           <div className="absolute inset-0 z-10" />
           <Heading align="center" wrap="balance" onBackground="neutral-weak" variant="body-strong-xl">
             Michel Butor
-          </Heading>
-        </div>
-      </Flex>
-      <Flex
-        background="neutral-alpha-weak"
-        padding="24"
-        radius="l"
-        gap="16"
-        direction="column"
-        horizontal="center"
-        style={{ width: "100%", maxWidth: "100%" }}
-      >
-        <div className="relative w-full rounded-md overflow-hidden mt-24" style={{ paddingBottom: "56.25%" }}>
-          <iframe
-            src="https://www.youtube.com/embed/IGiQp5UaJWc?si=7wThQGpRXLjz2XhD"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
-          />
-          <div className="absolute inset-0 z-10" />
-          <Heading align="center" wrap="balance" onBackground="neutral-weak" variant="body-strong-xl">
-            Hubert Lucot
           </Heading>
         </div>
       </Flex>

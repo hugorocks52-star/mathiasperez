@@ -6,6 +6,7 @@ import { Meta, Schema } from "@/once-ui/modules";
 import MasonryGrid2 from "@/components/gallery/MasonryGrid2";
 import MasonryGrid2025 from "@/components/gallery/MasonryGrid2025";
 import MasonryGrid2026 from "@/components/gallery/MasonryGrid2026";
+import MasonryGrid20262 from "@/components/gallery/MasonryGrid20262";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -47,6 +48,9 @@ export default function Gallery() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
+
+
+      <MasonryGrid20262 folder="auvers2026" />
 
       <Text variant="heading-default-xl">
         Galerie de Mathias Perez
